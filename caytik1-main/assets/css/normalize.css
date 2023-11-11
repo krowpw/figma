@@ -29,7 +29,7 @@ h2 {
 h3 {
   color: #5671A6;
 
-  text-align: center;
+  
   font-family: 'Amatic SC', sans-serif;
 
   font-size: 16px;
@@ -77,15 +77,39 @@ p {
   line-height: normal;
 }
 button {
+  padding: 10px 40px;
   border-radius: 100px;
   padding: 10px 40 px;
   border-radius: 50px;
   border: 2px solid #5671A6;
   font-size: 16px;
-  color: #5671A6;
+  color: #5671A6 ;
   cursor: pointer;
+  transition: 0.5s;
   
 }
-a {
+.Mega{
+  background: none;
 }
+.da{
+  background:  #5671A6;
+  color:white;
+
+}
+.da:hover{
+  background:  none;
+  color: #5671A6;
+}
+.Mega:active{
+  transform: scale(90%);
+}
+.da:active{
+  transform: scale(90%);
+}
+.Mega:hover{
+  background: #5671A6;
+  color: white;
+}
+
+
 
