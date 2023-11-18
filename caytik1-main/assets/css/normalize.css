@@ -13,13 +13,12 @@ h1 {
   color: #5671a6;
   font-size: 36px;
   font-weight: 600;
-  font-family: 'Amatic SC', sans-serif;
-  
+  font-family: "Amatic SC", sans-serif;
 }
 h2 {
-  color: #5671A6;
+  color: #5671a6;
 
-  font-family: 'Amatic SC', sans-serif;
+  font-family: "Amatic SC", sans-serif;
 
   font-size: 32px;
   font-style: normal;
@@ -27,10 +26,9 @@ h2 {
   line-height: normal;
 }
 h3 {
-  color: #5671A6;
+  color: #5671a6;
 
-  
-  font-family: 'Amatic SC', sans-serif;
+  font-family: "Amatic SC", sans-serif;
 
   font-size: 16px;
   font-style: normal;
@@ -40,19 +38,18 @@ h3 {
 h4 {
   color: #383838;
 
-  font-family: 'Amatic SC', sans-serif;
+  font-family: "Amatic SC", sans-serif;
 
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
- 
 }
 h5 {
   color: #383838;
 
-  font-family: 'Amatic SC', sans-serif;
-  
+  font-family: "Amatic SC", sans-serif;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -61,7 +58,7 @@ h5 {
 h6 {
   color: #616161;
 
-  font-family: 'Amatic SC', sans-serif;
+  font-family: "Amatic SC", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -70,7 +67,7 @@ h6 {
 p {
   color: #616161;
 
-  font-family: 'Amatic SC', sans-serif;
+  font-family: "Amatic SC", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -81,35 +78,30 @@ button {
   border-radius: 100px;
   padding: 10px 40 px;
   border-radius: 50px;
-  border: 2px solid #5671A6;
+  border: 2px solid #5671a6;
   font-size: 16px;
-  color: #5671A6 ;
+  color: #5671a6;
   cursor: pointer;
   transition: 0.5s;
-  
 }
-.Mega{
+.Mega {
   background: none;
 }
-.da{
-  background:  #5671A6;
-  color:white;
-
-}
-.da:hover{
-  background:  none;
-  color: #5671A6;
-}
-.Mega:active{
-  transform: scale(90%);
-}
-.da:active{
-  transform: scale(90%);
-}
-.Mega:hover{
-  background: #5671A6;
+.da {
+  background: #5671a6;
   color: white;
 }
-
-
-
+.da:hover {
+  background: none;
+  color: #5671a6;
+}
+.Mega:active {
+  transform: scale(90%);
+}
+.da:active {
+  transform: scale(90%);
+}
+.Mega:hover {
+  background: #5671a6;
+  color: white;
+}
