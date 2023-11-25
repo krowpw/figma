@@ -1,7 +1,6 @@
 .header {
   height: 76px;
   width: 100%;
-  background-color: cornflowerblue;
 
   display: flex;
   justify-content: space-between;
@@ -17,5 +16,32 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15px;
+  gap: 20px;
+}
+.light-switch {
+  width: 54px;
+  height: 30px;
+  border: 3px solid #5671a6;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.switch {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+
+  width: 18px;
+  height: 18px;
+  background-color: #5671a6;
+  border-radius: 50%;
+  transition: 1s;
+}
+#switch:checked ~ .switch {
+  left: 23px;
+}
+#switch {
+  display: none;
 }
