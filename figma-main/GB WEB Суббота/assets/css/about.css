@@ -1,0 +1,54 @@
+.about__titles {
+  max-width: 593px;
+}
+
+.about-card-item {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.about-card-item footer {
+  display: flex;
+  justify-content: space-between;
+}
+.about__card-list {
+  display: flex;
+  gap:20px;
+  margin-top: 40px;
+}
+.about__titles{
+  max-width: 593px;
+}
+.page-about_choice-block{
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+.choice-block_btn{
+  display: flex;
+  gap: 8px;
+}
+.page-about_profile-list{
+  display: flex;
+  gap: 20px;
+  border-top: 1px solid #dbdbdd;
+}
+.profile-item {
+  border: 1px solid #dbdbdd;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.profile-item__date{
+  display: flex;
+  gap: 8px;
+}
