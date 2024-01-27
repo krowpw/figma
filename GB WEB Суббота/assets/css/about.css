@@ -24,4 +24,32 @@
 .about__titles{
   max-width: 593px;
 }
-.
+.page-about_choice-block{
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+.choice-block_btn{
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+.page-about_profile-list{
+  display: flex;
+  gap: 20px;
+  border-top: 1px solid #dbdbdd;
+}
+.profile-item {
+  border: 1px solid #dbdbdd;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.profile-item__date{
+  display: flex;
+  gap: 8px;
+}
