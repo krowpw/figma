@@ -1,29 +1,42 @@
-console.log("гитлер.");
-let name = "gitler"
+let work = document.getElementById('work');
+let education = document.getElementById('education');
+let list = document.querySelector('.profile-about_profile-list')
 
-var name1 = "gitler1"
-console.log("гитлер1");
+console.log(work, education, list);
 
-const name_const = "gitler2"
-console.log("гитлер2");
-
-function FuncName(params) {
-    let letName ="let";
-    var varname ="var";
-
-if (1==1) {
-
-    var varname = "var1";
-    let letName = "let1";
-}
-console.log(letName, varname)
+function Click() {
+    console.log('нажали')
 }
 
-for (let i = 0; i<10; i++){
+work.onclick = function(){
+    console.log("нажали на work")
+    list.innerHTML = "";
+    list.insertAdjacentHTML("afterbegin", 
+    `<article class="profile-item">
+    <h5>гитлер</h5>
+    <div class="profile-item_bottom">
+      <h5>Здарова, ГЕЙмеры</h5>
+      <div class="profile-item__date">
+        <img src="./assets/img/icons/calendar.svg" alt="">
 
-}
-let a = 10;
-while (a>0) {
-    console.log(a)
-    a--;
-}
+        <h6>Всем Иисуса</h6>
+      </div>
+    </div>
+  </article>`)
+};
+education.onclick = () => {
+    console.log("нажали на education")
+    list.innerHTML = "";
+    list.insertAdjacentHTML("afterbegin", 
+    `<article class="profile-item">
+    <h5>卐НЕМЕЦКАЯ СОВА卐</h5>
+    <div class="profile-item_bottom">
+      <h5>ТЫ УМРЕШЬ В МУКАХ ТЫ УМРЕШЬ В МУКАХ</h5>
+      <div class="profile-item__date">
+        <img src="./assets/img/icons/calendar.svg" alt="">
+
+        <h6>БОБЫ ЗВОНЯТ</h6>
+      </div>
+    </div>
+  </article>`)
+};

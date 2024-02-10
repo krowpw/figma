@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <dialog id="modal">
+      <h1>ЫХХЫХЫХЫХ ЛОХ</h1>
+      <button id="close">
+        я продаю свою душу, и разрешаю использовать меня в любом смысле
+      </button>
+    </dialog>
+    <button id="open">показать секрет</button>
+  </body>
+  <script>
+    let modal = document.getElementById("modal");
+    let open = document.getElementById("open");
+    let close = document.getElementById("close");
+    open.onclick = () => {
+      modal.showModal();
+      // modal.close();
+    };
+    close.onclick = () => {
+      modal.close();
+    };
+
+    window.onclick = (e) => {
+      console.log("Нажали на экран", e);
+    };
+  </script>
+</html>
